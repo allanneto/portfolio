@@ -4,6 +4,9 @@ export default createGlobalStyle`
   * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
   }
 
   :root{
@@ -19,7 +22,6 @@ export default createGlobalStyle`
     background: var(--color-background);
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
-    box-sizing: border-box;
     font-size: 62.5%;
 
     ul {
